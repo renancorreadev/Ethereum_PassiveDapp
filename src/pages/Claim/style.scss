@@ -1,0 +1,107 @@
+.claim-container{
+
+    margin-top: 2rem;
+    margin-bottom: -23rem;
+
+    #banner{
+        margin: 0 auto;
+        max-width: 90%;
+        background: var(--purple);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+
+        padding: 3rem;
+
+        img{
+            height: 5rem;
+        }
+
+        span{
+            font-size: 4rem;
+            font-weight: 600;
+        }
+
+        p{
+            font-size:2.5rem;
+            max-width: 500px;
+        }
+        
+
+    }
+
+    #claim-area{
+        padding: 2rem;
+        max-width: 1080px;
+        margin: 0 auto;
+        margin-top: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1.5rem;
+
+        background: var(--ultra-dark-purple);
+
+        .grid-2-col{
+            gap: 1.5rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            width: 100%;
+            height: 273px;
+
+            #banked-history{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1.5rem;
+            }
+
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    .claim-container{
+        
+        #banner{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p{
+                text-align: center;
+            }
+        }
+
+        #claim-area{
+            position: relative;
+
+
+            .grid-2-col#first-section{
+               display: flex;
+               flex-direction: column;
+               margin-bottom: 6rem;
+            }
+
+            .grid-2-col#second-section{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                height: 85vh;
+
+                #banked-history{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                button{
+                    position: absolute;
+                }
+            }
+
+        }
+    }
+}

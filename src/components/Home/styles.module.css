@@ -1,0 +1,30 @@
+.bg {
+  background-image: url('../../assets/background_home.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.features {
+  border: 1px solid transparent;
+}
+
+.roadmap {
+  border: 1px solid transparent;
+  position: relative;
+  background-color: #161020;
+  width: 100%;
+  margin-top: 300px;
+}
+
+.howToBuy {
+  border: 1px solid transparent;
+  position: relative;
+  top: 390px;
+  padding-bottom: 100px;
+}
+
+#FeaturesB {
+  background-color: #161020;
+}

@@ -1,0 +1,13 @@
+div#connect-area {
+  text-align: center;
+  align-self: stretch;
+  padding: 2rem 1rem;
+  border-radius: 0.2rem;
+  background: var(--dark-purple);
+  font-weight: lighter;
+
+  p {
+    font-size: 1rem;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial;
+  }
+}

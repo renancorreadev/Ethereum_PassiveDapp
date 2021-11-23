@@ -1,0 +1,20 @@
+.button {
+  position: relative;
+  width: 540px;
+  height: 70px;
+  background: #7f00ff;
+  top: 39px;
+}
+
+.textButton {
+  position: absolute;
+  width: 216px;
+  top: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px;
+  /* identical to box height */
+  color: #ffffff;
+}

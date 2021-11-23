@@ -1,0 +1,47 @@
+#claim-history{
+    display: grid;
+
+    h2{
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #custom-table{
+        padding: 1rem;
+        height: 100%;
+        background: var(--dark-purple);
+        font-size: 0.7rem;
+
+        #custom-table-header{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+        }
+
+        #custom-table-data{
+            padding-top: 1rem;
+            height: 100px;
+            overflow-y: auto;
+            overflow-x: hidden;
+
+            #custom-data{
+
+                margin-right: -1rem;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 1rem;
+
+                p{
+                    width: 50px;
+                }
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,70 @@
+.bg {
+  background-color: black;
+  margin-top: 400px;
+  padding: 20px;
+}
+
+.formTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.parag {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+form {
+  input {
+    width: 266px;
+    height: 42px;
+    color: black;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+
+  button {
+    width: 140px;
+    height: 42px;
+
+    background: #7f00ff;
+    border-radius: 4px;
+
+    span {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      /* identical to box height */
+
+      text-align: center;
+
+      color: #ffffff;
+    }
+  }
+}
+
+footer {
+  margin-top: 100px;
+}
